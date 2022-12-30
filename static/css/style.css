@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f1f1;
+}
+
+header{
+    width: 100%;
+    cursor:default;
+    height: 25vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+main{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.teacher-container{
+    max-width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.teacher-img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.teacher-name{
+    cursor: default;
+    font-weight: 900;
+    font-size: 120%;
+}
+
+.teacher-price{
+    cursor: default;
+    font-weight: 700;
+    color: #F52273;
+}
+
+.teacher-description{
+    cursor: default;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.teacher-contract{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.teacher-contract-hours{
+    background-color: transparent;
+    width: 48%;
+    color: #565656;
+    outline: none;
+    border: 1px solid #C4C4C4;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 98%;
+}
+
+.teacher-contract-button{
+    width: 48%;
+    background-color: #F52273;
+    color:#FFF;
+    text-align: center;
+    font-weight: 900;
+    font-size: 98%;
+    border: none;
+    cursor: pointer;
+}
+
+.teacher-contract-button:hover{
+    transition: all 0.5s ease;
+    background-color: #f13980;
+}
